@@ -16,7 +16,7 @@ $ .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 $ .\bin\windows\kafka-server-start.bat .\config\server.properties
 - Create Topic
 $ .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 3 --topic (topicname)
-$ git clone https://github.com/thwet5595/friend-management.git
+$ git clone https://github.com/thwet5595/spring-kafka-test.git
 $ cd spring-kafka-test/
 $ mvn clean package
 Run Project with .jar
